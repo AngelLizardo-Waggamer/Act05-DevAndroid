@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".fragmentsJavaFiles.ImageViewFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageView"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="Los ImageView son componentes especializados para mostrar imágenes en la interfaz de usuario de Android. "
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="Pueden cargar imágenes desde diferentes fuentes como recursos drawable, archivos locales, URLs remotas o bitmap. Son esenciales para logos, avatares, galerías, iconos y cualquier elemento visual de la aplicación."
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/alan_baussy_toddler"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".fragmentsJavaFiles.ProgressBarFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressBar"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="Los ProgressBar son componentes que muestran el progreso de una operación o tarea en curso de manera visual. "
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="Pueden ser determinados (mostrando un porcentaje específico) o indeterminados (indicando que algo está procesándose). Son útiles para descargas, cargas de datos, instalaciones y cualquier proceso que requiera tiempo de espera."
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        />
+
+    <Button
+        android:id="@+id/btnSecretote"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar secreto mejor guardado del tecmilenio"/>
+
+    <ImageView
+        android:id="@+id/sonicNacote"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/sonic_naco"
+        android:visibility="gone"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/CargaMientrasSeRevelaElSecreto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

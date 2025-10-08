@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".fragmentsJavaFiles.SpinnerFragment">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/purple_700"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="Los Spinner son controles de tipo dropdown que permiten al usuario seleccionar una opción de una lista desplegable. "
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="Son ideales cuando se tiene un conjunto de opciones predefinidas y se quiere ahorrar espacio en la interfaz. Se usan comúnmente para seleccionar países, categorías, fechas o cualquier lista de elementos."
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Selecciona tu lenguaje de programación favorito de la siguiente lista:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:text="Si no ves el tuyo, pus nimodo :p"/>
+
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:id="@+id/spinnerLenguajes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

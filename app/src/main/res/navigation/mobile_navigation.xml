@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/button"
+        android:name="aahl.uimenu.fragmentsJavaFiles.ButtonFragment"
+        android:label="Button"
+        tools:layout="@layout/fragment_button" />
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="aahl.uimenu.fragmentsJavaFiles.homeScreen"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home_screen" />
+    <fragment
+        android:id="@+id/editTextFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.EditTextFragment"
+        android:label="EditText"
+        tools:layout="@layout/fragment_edit_text" />
+    <fragment
+        android:id="@+id/radioButtonFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.RadioButtonFragment"
+        android:label="RadioButton"
+        tools:layout="@layout/fragment_radio_button" />
+    <fragment
+        android:id="@+id/checkBoxFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.CheckBoxFragment"
+        android:label="CheckBox"
+        tools:layout="@layout/fragment_check_box" />
+    <fragment
+        android:id="@+id/switchFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.SwitchFragment"
+        android:label="Switch"
+        tools:layout="@layout/fragment_switch" />
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.SpinnerFragment"
+        android:label="Spinner"
+        tools:layout="@layout/fragment_spinner" />
+    <fragment
+        android:id="@+id/seekBarFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.SeekBarFragment"
+        android:label="SeekBar"
+        tools:layout="@layout/fragment_seek_bar" />
+    <fragment
+        android:id="@+id/textViewFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.TextViewFragment"
+        android:label="TextView"
+        tools:layout="@layout/fragment_text_view" />
+    <fragment
+        android:id="@+id/imageViewFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.ImageViewFragment"
+        android:label="ImageView"
+        tools:layout="@layout/fragment_image_view" />
+    <fragment
+        android:id="@+id/progressBarFragment"
+        android:name="aahl.uimenu.fragmentsJavaFiles.ProgressBarFragment"
+        android:label="ProgressBar"
+        tools:layout="@layout/fragment_progress_bar" />
+</navigation>

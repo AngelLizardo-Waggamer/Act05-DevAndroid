@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeScreen"
+            android:icon="@drawable/outline_home_24"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/button"
+            android:icon="@drawable/outline_buttons_alt_24"
+            android:title="Button" />
+
+        <item
+            android:id="@id/editTextFragment"
+            android:icon="@drawable/outline_highlight_text_cursor_24"
+            android:title="EditText"
+            />
+
+        <item
+            android:id="@+id/radioButtonFragment"
+            android:icon="@drawable/outline_album_24"
+            android:title="RadioButton" />
+
+        <item
+            android:id="@+id/checkBoxFragment"
+            android:icon="@drawable/outline_check_box_24"
+            android:title="CheckBox" />
+
+        <item
+            android:id="@+id/switchFragment"
+            android:icon="@drawable/outline_autorenew_24"
+            android:title="Switch" />
+
+        <item
+            android:id="@+id/spinnerFragment"
+            android:icon="@drawable/outline_360_24"
+            android:title="Spinner" />
+
+        <item
+            android:id="@+id/seekBarFragment"
+            android:icon="@drawable/outline_eyeglasses_24"
+            android:title="SeekBar" />
+
+        <item
+            android:id="@+id/textViewFragment"
+            android:icon="@drawable/outline_format_color_text_24"
+            android:title="TextView" />
+
+        <item
+            android:id="@+id/imageViewFragment"
+            android:icon="@drawable/outline_image_24"
+            android:title="ImageView" />
+
+        <item
+            android:id="@+id/progressBarFragment"
+            android:icon="@drawable/outline_battery_5_bar_24"
+            android:title="ProgressBar" />
+
+    </group>
+</menu>
